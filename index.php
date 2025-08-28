@@ -9,12 +9,17 @@
     <title>Adnan Hossain Siraz - Portfolio</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <!-- Navigation Bar  -->
+     
     <nav class="navbar">
 
         <div class="nav-container">
@@ -99,12 +104,17 @@
             </div>
 
             <!-- my img will be uploaded here later -->
+             <!-- <i class="fas fa-code"></i> -->
 
-            <div class="hero-image">
-                <div class="floating-card">
-                    <i class="fas fa-code"></i>
-                </div>
-            </div>
+<div class="hero-image">
+    <div class="floating-card">
+        <div class="profile-wrapper">
+            <img src="assets/images/img1.jpg" alt="Your Name - Developer" class="profile-image">
+        </div>
+    </div>
+</div>
+
+
 
         </div>
 
@@ -228,8 +238,8 @@
 
                 <div class="about-image">
                     <div class="image-placeholder">
-                        <i class="fas fa-user-circle"></i>
-                        <!-- <img src="assets/images/tech-stack.jpg" alt="My tech stack"> -->
+                        <!-- <i class="fas fa-user-circle"></i> -->
+                        <img src="assets/images/tech-stack.jpg" alt="My tech stack">
                     </div>
                 </div>
                 
@@ -406,6 +416,7 @@
                         </div>
 
                     </div>
+
                     <div class="social-links">
                         <?php if (!empty($profile['github'])): ?><a href="<?php echo htmlspecialchars($profile['github']); ?>" target="_blank" class="social-link"><i class="fab fa-github"></i></a><?php endif; ?>
                         <?php if (!empty($profile['linkedin'])): ?><a href="<?php echo htmlspecialchars($profile['linkedin']); ?>" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a><?php endif; ?>
@@ -432,7 +443,7 @@
                         <div class="form-group">
                             <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
                         </div>
-                        
+
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
                 </div>
@@ -440,6 +451,7 @@
         </div>
     </section>
 
+    
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
